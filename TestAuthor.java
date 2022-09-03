@@ -3,27 +3,28 @@ package com.oops.bll;
 public class TestAuthor {
 
 	public static void main(String[] args) {
-		Author a1=new Author();
-		System.out.println(a1);
+		Author author=new Author();
+		System.out.println(author);
 
-	Author a2= new Author("ramesh","singh");
+	Author kailashMishra= new Author("Kailash","Mishra");
 	
-	Author a3=new Author("vidya","sinha","storybook");
-	System.out.println(a3);
+	Author contentWriter=new Author("Sikha","Dayal","Content Writer");
 	
-	System.out.println("\n firstname is:"+a2.getFirstName());
-	System.out.println("\n lastname is :"+a2.getLastName());
-	System.out.println("\n bookname is:"+a2.getBookName());
+	System.out.println(contentWriter);
 	
-	System.out.println("\n detail"+a3.tostring());
+	System.out.println("\n firstname is:"+kailashMishra.getfirstName());
+	System.out.println("\n lastname is :"+kailashMishra.getlastName());
+	System.out.println("\n bookname is:"+kailashMishra.getbookName());
+//	
+	System.out.println("\n Content Writer details: "+contentWriter.tostring());
+//	
+	System.out.println("\n Author firstname: "+author.getfirstName());
+	System.out.println("\n Author lastname: "+author.getlastName());
+	System.out.println("\n Author bookname: "+author.getbookName());
 	
-	System.out.println("\n firstname:"+a1.getFirstName());
-	System.out.println("\n lastname:"+a1.getLastName());
-	System.out.println("\n bookname:"+a1.getBookName());
-	
-	Author a4;
-	a4= new Author();
-	System.out.println("\n reference:"+a4.tostring());
+	Author author2;
+	author2= new Author();
+	System.out.println("\n Author-2 reference:"+author2.tostring());
 	
 	
 	

@@ -1,45 +1,45 @@
 package com.oops.bll;
 
 public class Author {
-	private String firstname;
-	private String lastname;
-	private String bookname;
+	private String firstName;
+	private String lastName;
+	private String bookName;
 	
 	public Author() {
 
 }
-	public Author(String firstname, String lastname) {
-		this.firstname=firstname;
-		this.lastname=lastname;
+	public Author(String firstName, String lastName) {
+		this.firstName=firstName;
+		this.lastName=lastName;
 	}
-	public Author(String firstname, String lastname, String bookname) {
-		this.firstname=firstname;
-		this.lastname=lastname;
-		this.bookname=bookname;
+	public Author(String firstName, String lastName, String bookName) {
+		this.firstName=firstName;
+		this.lastName=lastName;
+		this.bookName=bookName;
 	}
-	public void setFirstName(String firstname) {
-		this.firstname=firstname;
+	public void setfirstName(String firstName) {
+		this.firstName=firstName;
 	}
-	public void setLastName(String lastname) {
-		this.lastname=lastname;
+	public void setlastName(String lastName) {
+		this.lastName=lastName;
 	}
-	public void setBookName(String bookname) {
-		this.bookname=bookname;
+	public void setbookName(String bookName) {
+		this.bookName=bookName;
 	}
-	public String getFirstName() {
-		return firstname;
+	public String getfirstName() {
+		return firstName;
 	}
-	public String getLastName() {
-		return lastname;
+	public String getlastName() {
+		return lastName;
 	}
-	public String getBookName() {
-		return bookname;
+	public String getbookName() {
+		return bookName;
 	}
 	
 	
 	public String tostring() {
 	
-		return "firstname:"+firstname+"\n lastname:"+lastname+"\nbookname:"+bookname;
+		return "firstName:"+firstName+"\n lastName:"+lastName+"\nbookName:"+bookName;
 	}
 	
 	
