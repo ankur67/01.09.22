@@ -17,6 +17,7 @@ public class Author {
 		this.lastName=lastName;
 		this.bookName=bookName;
 	}
+	
 	public void setfirstName(String firstName) {
 		this.firstName=firstName;
 	}
@@ -35,7 +36,6 @@ public class Author {
 	public String getbookName() {
 		return bookName;
 	}
-	
 	
 	public String tostring() {
 	
