@@ -1,5 +1,4 @@
-package com.oops.books;
-import com.oops.books.Author;
+package com.oops.bll.books;
 
 public class Book {
 	private String bookName;

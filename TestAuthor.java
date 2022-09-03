@@ -12,19 +12,19 @@ public class TestAuthor {
 	
 	System.out.println(contentWriter);
 	
-	System.out.println("\n firstname is:"+kailashMishra.getfirstName());
-	System.out.println("\n lastname is :"+kailashMishra.getlastName());
-	System.out.println("\n bookname is:"+kailashMishra.getbookName());
+	System.out.println("\n firstname is:"+kailashMishra.getFirstName());
+	System.out.println("\n lastname is :"+kailashMishra.getLastName());
+	System.out.println("\n bookname is:"+kailashMishra.getBookName());
 //	
-	System.out.println("\n Content Writer details: "+contentWriter.tostring());
+	System.out.println("\n Content Writer details: "+contentWriter);
 //	
-	System.out.println("\n Author firstname: "+author.getfirstName());
-	System.out.println("\n Author lastname: "+author.getlastName());
-	System.out.println("\n Author bookname: "+author.getbookName());
+	System.out.println("\n Author firstname: "+author.getFirstName());
+	System.out.println("\n Author lastname: "+author.getLastName());
+	System.out.println("\n Author bookname: "+author.getBookName());
 	
 	Author author2;
 	author2= new Author();
-	System.out.println("\n Author-2 reference:"+author2.tostring());
+	System.out.println("\n Author-2 reference:"+author2.toString());
 	
 	
 	

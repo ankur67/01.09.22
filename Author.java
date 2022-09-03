@@ -18,27 +18,26 @@ public class Author {
 		this.bookName=bookName;
 	}
 	
-	public void setfirstName(String firstName) {
+	public void setFirstName(String firstName) {
 		this.firstName=firstName;
 	}
-	public void setlastName(String lastName) {
+	public void setLastName(String lastName) {
 		this.lastName=lastName;
 	}
-	public void setbookName(String bookName) {
+	public void setBookName(String bookName) {
 		this.bookName=bookName;
 	}
-	public String getfirstName() {
+	public String getFirstName() {
 		return firstName;
 	}
-	public String getlastName() {
+	public String getLastName() {
 		return lastName;
 	}
-	public String getbookName() {
+	public String getBookName() {
 		return bookName;
 	}
-	
-	public String tostring() {
-	
+	@Override
+	public String toString() {
 		return "firstName:"+firstName+"\n lastName:"+lastName+"\nbookName:"+bookName;
 	}
 	
